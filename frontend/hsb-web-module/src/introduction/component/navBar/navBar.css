@@ -1,0 +1,66 @@
+.navBar-container {
+  
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #094165;
+  border: black 2px solid;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #999;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.content-div1{
+
+width: 20em;
+height: auto;
+padding: 0.3em;
+
+}
+.content-div2{
+
+width: 20em;
+height: auto;
+padding: 0.3em;
+
+}
+
+
+
+.user-out {
+vertical-align: super;
+font-size:1.2em;
+color:white;
+}
+.menu {
+vertical-align: super;
+
+font-size:0.5em;
+color:white;
+}
+
+
+img {
+  width: auto;
+  height: 3em; 
+  border-radius: 25px;
+}
+.icon-init {
+  width: auto;
+  height: 3em; 
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+
+button {
+  border-radius: 25px;
+   width: auto;
+   height: auto;
+   margin-left: 1.5em;
+   background-color: transparent;
+   border-color: transparent;
+ }
