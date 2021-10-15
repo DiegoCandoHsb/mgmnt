@@ -10,16 +10,17 @@
   box-shadow: 10px 10px 10px #999;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .content-div1{
-
+display: flex;
 width: 20em;
 height: auto;
 padding: 0.3em;
 
 }
+
 .content-div2{
 
 width: 20em;
@@ -29,8 +30,8 @@ padding: 0.3em;
 }
 
 
-
-.user-out {
+.user-out{
+  
 vertical-align: super;
 font-size:1.2em;
 color:white;
@@ -64,3 +65,30 @@ button {
    background-color: transparent;
    border-color: transparent;
  }
+
+.dropdown {
+  display: flex;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 14em;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}

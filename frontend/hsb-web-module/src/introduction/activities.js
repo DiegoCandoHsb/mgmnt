@@ -1,10 +1,10 @@
 import './root.css';
-import NavBarInto from '../introduction/component/navBar/navBarInto'
+import NavBar from './component/navBar/navBar'
 import { useEffect,useState } from 'react';
 
+function Activities() {
+  const token = useState(sessionStorage.getItem("tokenHsb"));
 
-function Root() {
-const token = useState(sessionStorage.getItem("tokenHsb"));
 
   useEffect(() => {
     if (token === null) {
@@ -14,9 +14,9 @@ const token = useState(sessionStorage.getItem("tokenHsb"));
 
   return (
     <div className="root">
-      <NavBarInto/>
+      <NavBar/>
     </div>
   );
 }
 
-export default Root;
+export default Activities;

@@ -2,10 +2,6 @@ import './navBar.css';
 import React from 'react';
 
 
-
-
-
-
 function NavBar(props) {
 
   return (
@@ -14,7 +10,8 @@ function NavBar(props) {
         <button ><img  className="icon-init" src="./nameHSB.svg" alt="init"/></button>
       </div>
       <div className="content-div2 ">
-        
+      <button  translate="yes" onClick={()=>{sessionStorage.setItem("tokenHsb","asdfasfsdfsdfsf"); window.location.href="./activities"}} >exit</button>
+
       </div>
     </nav>
   );
