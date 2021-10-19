@@ -1,37 +1,63 @@
-import ReactDOM from 'react-dom';
-import './index.css';
-//import InitRoot from '../src/introduction/root';
-//import Activities from '../src/introduction/activities';
-import Routes from './routes';
-
+import ReactDOM from "react-dom";
+import "./index.css";
+import InitRoot from "../src/introduction/root";
+import Activities from "../src/introduction/activities";
+import "./routes";
+import { useEffect, useState } from "react";
 
 function IntoTokenVerify() {
+  const [token, settoken] = useState();
 
-    const toggleShow1=()=>{
-        sessionStorage.setItem("tokenHsb","cghfghfghfgh")
+
+
+
+
+  useEffect(() => {
+    settoken(sessionStorage.getItem("tokenHsb"));
+    if (token) {
+      console.log("ACTIVITIES : " + token);
     }
-    const toggleShow2=()=>{
-        sessionStorage.removeItem("tokenHsb") 
-    }
+  }, [token]);
 
-    if (sessionStorage.getItem("tokenHsb") === null) {
-        console.log(" varinto  "+ sessionStorage.getItem("tokenHsb"));
-        //window.location.href=
-    return(<div>
-            
-            <button onClick={()=>{toggleShow1(); }}>chance token </button>
-            </div>);
-    }else{
-        console.log(" var  "+sessionStorage.getItem("tokenHsb"));
-    return(<div>  
-            
-            <button onClick={()=>{toggleShow2(); }}>chance token </button>
-            </div>);
-    } 
+  
 
 
 
+
+  const toggleShow1 = () => 
+        {
+            sessionStorage.setItem("tokenHsb", "cghfghfghfgh");
+        };
+  const toggleShow2 = () => 
+        {
+            sessionStorage.removeItem("tokenHsb");
+        };
+
+
+
+
+
+
+  return token === null ? (
+                            <div className="root">
+                            <InitRoot />
+                            <button onClick={() => {toggleShow1();}}>
+                                change set
+                            </button>
+                            </div>
+                        ) 
+                        : (
+                            <div className="root">
+                            <Activities />
+                            <button
+                                onClick={() => {toggleShow2();}}>
+                                change remove
+                            </button>
+                            </div>
+                        );
 }
 
-ReactDOM.render(<><Routes/><IntoTokenVerify/></>, document.getElementById('root'));
-  
+
+
+
+ReactDOM.render(<IntoTokenVerify />, document.getElementById("root"));

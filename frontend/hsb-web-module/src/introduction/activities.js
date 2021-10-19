@@ -1,20 +1,31 @@
 import './root.css';
 import NavBar from './component/navBar/navBar'
-import { useEffect,useState } from 'react';
+//import { useState } from 'react';
 
 function Activities() {
-  const token = useState(sessionStorage.getItem("tokenHsb"));
+ //const [token, settoken] = useState("")
+ //settoken(sessionStorage.getItem("tokenHsb"));
 
 
-  useEffect(() => {
-    if (token === null) {
-      window.location.href="./"
-    }else{console.log("window activities and token : "+token)}
-  },[token])
+/*   useEffect(() => {
+    settoken(sessionStorage.getItem("tokenHsb"));
+    if (token) {
+     console.log("ACTIVITIES : "+token)
+     window.location.href="/" 
+    }
+  },[token]) 
+ */
+
+
+
 
   return (
     <div className="root">
-      <NavBar/>
+
+    <NavBar/>
+    <div>
+      
+    </div>
     </div>
   );
 }

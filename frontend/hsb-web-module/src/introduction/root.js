@@ -1,22 +1,58 @@
 import './root.css';
 import NavBarInto from '../introduction/component/navBar/navBarInto'
-import { useEffect,useState } from 'react';
+import { useState } from 'react';
+
+
+
+
+function siginUp(params) {
+  
+}
+function siginIn(params) {
+  
+}
+function newPassword(params) {
+  
+}
+
 
 
 function Root() {
-const token = useState(sessionStorage.getItem("tokenHsb"));
+  const [showSiginUp, setshowSiginUp] = useState(false);
+  const [showSiginIn, setshowSiginIn] = useState(true);
+  const [showNewPassword, setshowNewPassword] = useState(false);
 
-  useEffect(() => {
-    if (token === null) {
-      window.location.href="./"
-    }else{console.log("window activities and token : "+token)}
-  },[token])
+
+
+
+  //const [token, settoken] = useState("")
+  //settoken(sessionStorage.getItem("tokenHsb"));
+
+/*    useEffect(() => {
+    settoken(sessionStorage.getItem("tokenHsb"));
+    if (token) {
+     console.log("ROOT : "+token)
+     window.location.href="/activities" 
+    }
+  },[token])  */
 
   return (
-    <div className="root">
-      <NavBarInto/>
-    </div>
+      <div className="root">
+        <NavBarInto/>
+        <div>
+        <siginUp showSiginUp/>
+        <siginIn/>
+        <newPassword/>
+
+        </div>
+      </div>
+      
   );
 }
+
+
+
+
+
 
 export default Root;

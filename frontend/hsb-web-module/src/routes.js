@@ -8,12 +8,14 @@ import Activities from '../src/introduction/activities';
 
 
 function routes() {
+
     return ( 
         <BrowserRouter>
             <Switch >
-                <Route exact path="/"  component={InitRoot} render={()=>{(sessionStorage.getItem("tokenHsb") === null) ? window.location.href="./":window.location.href="./activities"}}/>
-                <Route   path="/activities"   component={Activities} render={()=>{(sessionStorage.getItem("tokenHsb") === null) ? window.location.href="./":window.location.href="./activities"}}  />
-            </Switch>
+            <Route  exact path="/"  component={InitRoot}/>
+            <Route  exact path="/activities"  component={Activities}/>
+            
+             </Switch>
         </BrowserRouter>
         );
 }
