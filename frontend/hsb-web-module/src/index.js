@@ -19,42 +19,8 @@ function IntoTokenVerify() {
     }
   }, [token]);
 
-  
-
-
-
-
-  const toggleShow1 = () => 
-        {
-            sessionStorage.setItem("tokenHsb", "cghfghfghfgh");
-        };
-  const toggleShow2 = () => 
-        {
-            sessionStorage.removeItem("tokenHsb");
-        };
-
-
-
-
-
-
-  return token === null ? (
-                            <div className="root">
-                            <InitRoot />
-                            <button onClick={() => {toggleShow1();}}>
-                                change set
-                            </button>
-                            </div>
-                        ) 
-                        : (
-                            <div className="root">
-                            <Activities />
-                            <button
-                                onClick={() => {toggleShow2();}}>
-                                change remove
-                            </button>
-                            </div>
-                        );
+  return token === null ? (<div className="root"><InitRoot /></div>) 
+                        : (<div className="root"><Activities /></div>);
 }
 
 

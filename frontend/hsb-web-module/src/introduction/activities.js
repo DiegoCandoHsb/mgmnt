@@ -21,11 +21,11 @@ function Activities() {
 
   return (
     <div className="root">
-
-    <NavBar/>
-    <div>
       
-    </div>
+      <NavBar/>
+      <div className="div-preoload">
+        <div className="preloader"></div>
+      </div>
     </div>
   );
 }
