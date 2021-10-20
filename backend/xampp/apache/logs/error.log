@@ -1,0 +1,50 @@
+[Mon Sep 13 14:10:30.476183 2021] [ssl:warn] [pid 672:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 13 14:10:30.536285 2021] [ssl:warn] [pid 672:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 13 14:10:30.762974 2021] [mpm_winnt:notice] [pid 672:tid 624] AH00455: Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/8.0.10 configured -- resuming normal operations
+[Mon Sep 13 14:10:30.762974 2021] [mpm_winnt:notice] [pid 672:tid 624] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Sep 13 14:10:30.762974 2021] [core:notice] [pid 672:tid 624] AH00094: Command line: 'c:\\users\\hsbcad-dev\\downloads\\xampp\\apache\\bin\\httpd.exe -d C:/Users/HSBCAD-DEV/Downloads/xampp/apache'
+[Mon Sep 13 14:10:30.765970 2021] [mpm_winnt:notice] [pid 672:tid 624] AH00418: Parent: Created child process 33668
+[Mon Sep 13 14:10:31.537526 2021] [ssl:warn] [pid 33668:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 13 14:10:31.643994 2021] [ssl:warn] [pid 33668:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 13 14:10:31.676960 2021] [mpm_winnt:notice] [pid 33668:tid 504] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 13 14:10:38.109609 2021] [mpm_winnt:crit] [pid 33668:tid 504] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Sep 15 13:21:02.108826 2021] [ssl:warn] [pid 17072:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 15 13:21:02.160797 2021] [core:warn] [pid 17072:tid 544] AH00098: pid file C:/Users/HSBCAD-DEV/Downloads/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 15 13:21:02.163795 2021] [ssl:warn] [pid 17072:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 15 13:21:02.460123 2021] [mpm_winnt:notice] [pid 17072:tid 544] AH00455: Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/8.0.10 configured -- resuming normal operations
+[Wed Sep 15 13:21:02.460123 2021] [mpm_winnt:notice] [pid 17072:tid 544] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Sep 15 13:21:02.460123 2021] [core:notice] [pid 17072:tid 544] AH00094: Command line: 'c:\\users\\hsbcad-dev\\downloads\\xampp\\apache\\bin\\httpd.exe -d C:/Users/HSBCAD-DEV/Downloads/xampp/apache'
+[Wed Sep 15 13:21:02.463122 2021] [mpm_winnt:notice] [pid 17072:tid 544] AH00418: Parent: Created child process 12108
+[Wed Sep 15 13:21:02.986849 2021] [ssl:warn] [pid 12108:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 15 13:21:03.037819 2021] [ssl:warn] [pid 12108:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 15 13:21:03.066803 2021] [mpm_winnt:notice] [pid 12108:tid 652] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 20 15:11:48.208283 2021] [ssl:warn] [pid 37260:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 20 15:11:48.251258 2021] [core:warn] [pid 37260:tid 584] AH00098: pid file C:/Users/HSBCAD-DEV/Downloads/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 20 15:11:48.255256 2021] [ssl:warn] [pid 37260:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 20 15:11:48.520775 2021] [mpm_winnt:notice] [pid 37260:tid 584] AH00455: Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/8.0.10 configured -- resuming normal operations
+[Mon Sep 20 15:11:48.520775 2021] [mpm_winnt:notice] [pid 37260:tid 584] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Mon Sep 20 15:11:48.520775 2021] [core:notice] [pid 37260:tid 584] AH00094: Command line: 'c:\\users\\hsbcad-dev\\downloads\\xampp\\apache\\bin\\httpd.exe -d C:/Users/HSBCAD-DEV/Downloads/xampp/apache'
+[Mon Sep 20 15:11:48.523773 2021] [mpm_winnt:notice] [pid 37260:tid 584] AH00418: Parent: Created child process 21368
+[Mon Sep 20 15:11:48.923370 2021] [ssl:warn] [pid 21368:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 20 15:11:48.964347 2021] [ssl:warn] [pid 21368:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 20 15:11:48.986349 2021] [mpm_winnt:notice] [pid 21368:tid 584] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 20 15:18:03.545112 2021] [mpm_winnt:crit] [pid 21368:tid 584] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 20 12:38:54.465184 2021] [ssl:warn] [pid 35020:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 20 12:38:54.527182 2021] [core:warn] [pid 35020:tid 588] AH00098: pid file C:/hsbcad/mgmnt/backend/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 20 12:38:54.534180 2021] [ssl:warn] [pid 35020:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 20 12:38:54.993179 2021] [mpm_winnt:notice] [pid 35020:tid 588] AH00455: Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/8.0.10 configured -- resuming normal operations
+[Wed Oct 20 12:38:54.993179 2021] [mpm_winnt:notice] [pid 35020:tid 588] AH00456: Apache Lounge VS16 Server built: Aug 25 2021 12:07:35
+[Wed Oct 20 12:38:54.993179 2021] [core:notice] [pid 35020:tid 588] AH00094: Command line: 'c:\\hsbcad\\mgmnt\\backend\\xampp\\apache\\bin\\httpd.exe -d C:/hsbcad/mgmnt/backend/xampp/apache'
+[Wed Oct 20 12:38:54.996180 2021] [mpm_winnt:notice] [pid 35020:tid 588] AH00418: Parent: Created child process 30432
+[Wed Oct 20 12:38:55.721178 2021] [ssl:warn] [pid 30432:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 20 12:38:55.773181 2021] [ssl:warn] [pid 30432:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 20 12:38:55.819179 2021] [mpm_winnt:notice] [pid 30432:tid 596] AH00354: Child: Starting 150 worker threads.
+[Wed Oct 20 16:58:19.403456 2021] [php:warn] [pid 30432:tid 1824] [client ::1:64488] PHP Warning:  Attempt to read property "firstname" on null in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 24
+[Wed Oct 20 16:58:19.403456 2021] [php:warn] [pid 30432:tid 1824] [client ::1:64488] PHP Warning:  Attempt to read property "lastname" on null in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 25
+[Wed Oct 20 16:58:19.403456 2021] [php:warn] [pid 30432:tid 1824] [client ::1:64488] PHP Warning:  Attempt to read property "email" on null in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 26
+[Wed Oct 20 16:58:19.403456 2021] [php:warn] [pid 30432:tid 1824] [client ::1:64488] PHP Warning:  Attempt to read property "password" on null in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 27
+[Wed Oct 20 17:03:55.602943 2021] [php:warn] [pid 30432:tid 1824] [client ::1:54137] PHP Warning:  Undefined property: stdClass::$firstname in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 24
+[Wed Oct 20 17:03:55.602943 2021] [php:warn] [pid 30432:tid 1824] [client ::1:54137] PHP Warning:  Undefined property: stdClass::$lastname in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php on line 25
+[Wed Oct 20 17:30:55.739206 2021] [php:error] [pid 30432:tid 1836] [client ::1:54289] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php:49\nStack trace:\n#0 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php(49): PDOStatement->execute()\n#1 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php(33): User->create()\n#2 {main}\n  thrown in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php on line 49
+[Wed Oct 20 17:32:37.058082 2021] [php:error] [pid 30432:tid 1824] [client ::1:58638] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php:51\nStack trace:\n#0 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php(51): PDOStatement->execute()\n#1 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php(33): User->create()\n#2 {main}\n  thrown in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php on line 51
+[Wed Oct 20 17:33:13.899359 2021] [php:error] [pid 30432:tid 1804] [client ::1:58646] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php:51\nStack trace:\n#0 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php(51): PDOStatement->execute()\n#1 C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\create_user.php(35): User->create()\n#2 {main}\n  thrown in C:\\hsbcad\\mgmnt\\backend\\xampp\\htdocs\\rest-api\\api\\objects\\user.php on line 51
