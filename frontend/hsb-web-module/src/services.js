@@ -2,16 +2,23 @@ import axios from "axios"
 
 
 
-const apiTokenAcces= ()=> {
+function apiTokenAcces () {
 
 axios.get('https://jsonplaceholder.typicode.com/todos/1').then((res)=>console.log(res.data));
 }
 
 
 
-const apiTokenAccesId= ()=> {
+async function apiTokenAccesId() {
 
-    axios.get('https://jsonplaceholder.typicode.com/todos/1').then((res)=>console.log(res.data.userId));
+    await axios.get('https://jsonplaceholder.typicode.com/todos/1').then((res)=>console.log(res.data.userId));
     }
 
-export default {apiTokenAcces,apiTokenAccesId} ;
+
+
+
+
+
+    
+ const api = {apiTokenAcces,apiTokenAccesId};
+export default api ;

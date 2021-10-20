@@ -2,6 +2,7 @@ import './root.css';
 import NavBar from './component/navBar/navBar'
 import { useState,useEffect } from 'react';
 import Api from "../services";
+import Loading from "../introduction/component/loading"
 
 
 
@@ -10,14 +11,22 @@ import Api from "../services";
 function Activities() {
  const [token, settoken] = useState(0)
 
+
+ 
+
    useEffect(() => {
-  settoken(sessionStorage.getItem( Api.apiTokenAccesId()));
+  settoken(sessionStorage.getItem(Api.apiTokenAccesId()));
+    
+  if (token === 0) {
+  sessionStorage.removeItem("")
+  }
+
   },[token]) 
  
 
 
   return (
-      (token===0) ? <div className="div-preoload"><div className="preloader"></div></div>:
+      (token === 0) ? <Loading/>:
 
     <div className="root">
       <NavBar/>

@@ -1,9 +1,11 @@
 import ReactDOM from "react-dom";
 import "./index.css";
 import InitRoot from "../src/introduction/root";
-import Activities from "../src/introduction/activities";
+//import Activities from "../src/introduction/activities";
 import "./routes";
 import { useEffect, useState } from "react";
+import { Suspense, lazy } from "react";
+const Activities = lazy(()=>import("../src/introduction/activities"))
 
 function IntoTokenVerify() {
   const [token, settoken] = useState();
@@ -14,13 +16,15 @@ function IntoTokenVerify() {
 
   useEffect(() => {
     settoken(sessionStorage.getItem("tokenHsb"));
-    if (token) {
-      console.log("ACTIVITIES : " + token);
-    }
   }, [token]);
 
   return token === null ? (<div className="root"><InitRoot /></div>) 
-                        : (<div className="root"><Activities /></div>);
+                        : (<div className="root">
+                        <Suspense fallback="../src/introduction/component/loading.js">
+                          <Activities/>
+                        </Suspense>
+
+                        </div>);
 }
 
 
