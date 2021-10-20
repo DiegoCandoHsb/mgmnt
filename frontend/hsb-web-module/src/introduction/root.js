@@ -154,9 +154,9 @@ function Root() {
             </div>
             <div className="content2">
             
-              <button onClick={()=>{setshow([true, false, false])}} translate="yes">Sigin Up</button>
-              <button onClick={()=>{setshow([false, true, false])}} translate="yes">SiginIn</button>
-              <button onClick={()=>{setshow([false, false, true])}} translate="yes">Recover Password</button>
+              <button onClick={()=>{setshow([true, false, false])}} translate="yes"><h3>Sigin Up</h3></button>
+              <button onClick={()=>{setshow([false, true, false])}} translate="yes"><h3>SiginIn</h3></button>
+              <button onClick={()=>{setshow([false, false, true])}} translate="yes"><h3>Recover Password</h3></button>
 
             </div>
         </div>
