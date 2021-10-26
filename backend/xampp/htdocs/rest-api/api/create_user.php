@@ -29,6 +29,7 @@ $data = json_decode(file_get_contents("php://input"));
 // set product property values
 $user->id = $data->id;
 $user->name = $data->name;
+$user->details = $data->details;
 $user->email = $data->email;
 $user->password = $data->password;
  

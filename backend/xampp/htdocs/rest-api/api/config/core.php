@@ -1,10 +1,10 @@
 <?php
 // show error reporting
 error_reporting(E_ALL);
- 
+
 // set your default time-zone
 date_default_timezone_set('America/Guayaquil');
- 
+
 // variables used for jwt
 $key = "example_key";
 $issued_at = time();
