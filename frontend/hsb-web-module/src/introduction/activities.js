@@ -16,9 +16,9 @@ function Activities() {
 
    useEffect(() => {
        Api.apiTokenAccesId(sessionStorage.getItem("tokenHsb")).then((res)=>{ settoken(res.data.data.id)})
-       console.log(token)
+       //console.log(token)
     
-    console.log("pagian de prueba con token de verificacion    " +token)
+    //console.log("pagian de prueba con token de verificacion    " +token)
   if (token === 0) {
   sessionStorage.removeItem("")
   }
