@@ -1,4 +1,4 @@
-#!\hsbcad\mgmnt\backend\xampp\php\.\php.exe
+#!\Users\Daniel Vacas\Documents\proyect\mgmnt\backend\xampp\php\.\php.exe
 <?php
 /**
  * Get the Compatibility info from PHP CLI

@@ -1,11 +1,13 @@
 import './root.css';
 import NavBarInto from '../introduction/component/navBar/navBarInto'
 import { useState } from 'react';
+import  Api  from "../services";
 
 
  
 
 function SiginUp(props) {
+    const [id, setid] = useState('');
     const [username, setUsername] = useState('');
     const [lastname, setLastname] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -14,14 +16,17 @@ function SiginUp(props) {
 
 
     const submitValue = () => {
-      const frmdetails = {
-          'First Name' : username,
-          'Last Name' : lastname,
-          'Phone' : phoneNumber,
-          'Email' : email,
-          'Password' : password
+      const user = {
+          'id' : id,
+          'name' : username,
+          'lastname' : lastname,
+          'phone' : phoneNumber,
+          'email' : email,
+          'password' : password
       }
-      console.log(frmdetails);
+
+      Api.apiSigiUp(user);
+      //console.log(user);
     }
 
 
@@ -36,9 +41,13 @@ function SiginUp(props) {
                     <br/>
                     <input type="text" placeholder="Last Name" onChange={e => setLastname(e.target.value)} />
                     <br/>
+                    <label translate="yes">Number id/Pastport</label>
+                    <br/>
+                    <input type="number" placeholder=" Number id/pastport" onChange={e => setid(e.target.value)} />
+                    <br/>
                     <label translate="yes">Phone Number</label>
                     <br/>
-                    <input type="text" placeholder="Phone" onChange={e => setPhoneNumber(e.target.value)} />
+                    <input type="number" placeholder="Phone" onChange={e => setPhoneNumber(e.target.value)} />
                     <br/>
                     <label translate="yes">Email</label>
                     <br/>
@@ -61,15 +70,13 @@ function SiginUp(props) {
     const [password, setPassword] = useState('');
 
     const submitValue = () => {
-      const frmdetails = {
+      const user = {
 
-          'Email' : email,
-          'Password' : password
+          'email' : email,
+          'password' : password
       }
-      
-      sessionStorage.setItem("tokenHsb","asdfasfsdfsdfsf");
-      window.location.href="./activities"
-      console.log(frmdetails);
+
+      Api.apiSigiIn(user);
     }
 
 

@@ -15,8 +15,10 @@ function Activities() {
  
 
    useEffect(() => {
-  settoken(sessionStorage.getItem(Api.apiTokenAccesId()));
+       Api.apiTokenAccesId(sessionStorage.getItem("tokenHsb")).then((res)=>{ settoken(res.data.data.id)})
+       console.log(token)
     
+    console.log("pagian de prueba con token de verificacion    " +token)
   if (token === 0) {
   sessionStorage.removeItem("")
   }
@@ -36,5 +38,8 @@ function Activities() {
     </div>
   );
 }
+
+
+
 
 export default Activities;

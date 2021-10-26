@@ -11,7 +11,7 @@
 @if %ErrorLevel% == 9009 @echo You do not have Perl in your PATH.
 @goto endofperl
 @rem ';
-#!\hsbcad\mgmnt\backend\xampp\perl\bin\perl.exe 
+#!\Users\Daniel Vacas\Documents\proyect\mgmnt\backend\xampp\perl\bin\perl.exe 
 #line 30
 
 use warnings;

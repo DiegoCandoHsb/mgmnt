@@ -1,4 +1,4 @@
-DIR = \hsbcad\mgmnt\backend\xampp
+DIR = \Users\Daniel Vacas\Documents\proyect\mgmnt\backend\xampp
 xampp = 8.0.10
 
 server = 1.8.0

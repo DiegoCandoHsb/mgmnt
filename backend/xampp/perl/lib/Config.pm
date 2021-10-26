@@ -84,7 +84,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => '\\hsbcad\\mgmnt\\backend\\xampp\\perl\\lib',
+    archlibexp => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -96,14 +96,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => '\\hsbcad\\mgmnt\\backend\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
+    libpth => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
     osname => 'MSWin32',
     osvers => '10.0.19042.746',
     path_sep => ';',
-    privlibexp => '\\hsbcad\\mgmnt\\backend\\xampp\\perl\\lib',
-    scriptdir => '\\hsbcad\\mgmnt\\backend\\xampp\\perl\\bin',
-    sitearchexp => '\\hsbcad\\mgmnt\\backend\\xampp\\perl\\site\\lib',
-    sitelibexp => '\\hsbcad\\mgmnt\\backend\\xampp\\perl\\site\\lib',
+    privlibexp => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\perl\\lib',
+    scriptdir => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\perl\\bin',
+    sitearchexp => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\perl\\site\\lib',
+    sitelibexp => '\\Users\\Daniel Vacas\\Documents\\proyect\\mgmnt\\backend\\xampp\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',
