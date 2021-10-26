@@ -1,7 +1,7 @@
 import './root.css';
 import NavBar from './component/navBar/navBar'
 import { useState,useEffect } from 'react';
-import Api from "../services";
+//import Api from "../services";
 import Loading from "../introduction/component/loading"
 
 
@@ -15,9 +15,9 @@ function Activities() {
  
 
    useEffect(() => {
-       Api.apiTokenAccesId(sessionStorage.getItem("tokenHsb")).then((res)=>{ settoken(res.data.data.id)})
+       //Api.apiTokenAccesId(sessionStorage.getItem("tokenHsb")).then((res)=>{ settoken(res.data.data.id)})
        //console.log(token)
-    
+       settoken(664564564656)
     //console.log("pagian de prueba con token de verificacion    " +token)
   if (token === 0) {
   sessionStorage.removeItem("")

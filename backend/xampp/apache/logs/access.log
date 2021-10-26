@@ -15568,3 +15568,5 @@
 ::1 - - [26/Oct/2021:16:14:45 -0500] "POST /rest-api/api/validate_token.php HTTP/1.1" 200 104 "http://10.0.2.15:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
 ::1 - - [26/Oct/2021:16:14:46 -0500] "POST /rest-api/api/validate_token.php HTTP/1.1" 200 104 "http://10.0.2.15:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
 127.0.0.1 - - [26/Oct/2021:16:15:20 -0500] "POST /rest-api/api/validate_token.php HTTP/1.1" 401 68 "-" "Thunder Client (https://www.thunderclient.io)"
+::1 - - [26/Oct/2021:17:13:19 -0500] "OPTIONS /rest-api/api/login.php HTTP/1.1" 200 - "http://10.0.2.15:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+::1 - - [26/Oct/2021:17:13:19 -0500] "POST /rest-api/api/login.php HTTP/1.1" 200 351 "http://10.0.2.15:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
