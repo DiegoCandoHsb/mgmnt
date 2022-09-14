@@ -1,23 +1,32 @@
 import React from "react";
-import {BrowserRouter,Switch,Route} from "react-router-dom";
-import InitRoot from '../src/introduction/root';
-import Activities from '../src/introduction/activities';
-
-
+// import InitRoot from '../src/introduction/root';
+// import Activities from '../src/introduction/activities';
+// import Container1Data from "./introduction/component/Containers/Container1Data";
+// import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
 
 
 
 function routes() {
 
     return ( 
-        <BrowserRouter>
-            <Switch >
-            <Route  exact path="/"  component={InitRoot}/>
-            <Route  exact path="/activities"  component={Activities}/>
-            
-             </Switch>
-        </BrowserRouter>
-        );
+        // <BrowserRouter>
+        
+            <h1>aaaaaaaaaa</h1>
+        
+        // </BrowserRouter>
+
+        // <BrowserRouter>
+
+
+        //     <Route path="/"  element={<InitRoot />} >
+        //         <Route path="activities"  element={<Activities />}>
+        //             <Route path="expenses"  element={<Container1Data />}>
+        //             </Route>
+        //         </Route>
+        //     </Route>    
+
+        // </BrowserRouter>
+        )
 }
 
 export default routes;

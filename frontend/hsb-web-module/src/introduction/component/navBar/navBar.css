@@ -39,7 +39,7 @@ color:white;
 .menu {
 vertical-align: super;
 
-font-size:0.5em;
+font-size:0.7em;
 color:white;
 }
 
@@ -47,21 +47,22 @@ color:white;
 img {
   width: auto;
   height: 3em; 
-  border-radius: 25px;
+  border-radius: 5px;
 }
 .icon-init {
   width: auto;
   height: 3em; 
+  border: 1px solid #062c44;
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: #094165;
 }
 
 
 button {
-  border-radius: 25px;
+  /* border-radius: 25px; */
    width: auto;
    height: auto;
-   margin-left: 1.5em;
+   /* margin-left: 1.5em; */
    background-color: transparent;
    border-color: transparent;
  }
